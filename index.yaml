@@ -58,4 +58,15 @@ entries:
     urls:
     - https://kubearmor.github.io/charts/kubearmor-operator-v0.10.2.tgz
     version: v0.10.2
-generated: "2023-09-22T07:31:34.550850734Z"
+  sidekick:
+  - apiVersion: v2
+    appVersion: v0.1
+    created: "2023-09-26T05:49:02.666138535Z"
+    description: A Helm chart for kubearmor sidekick
+    digest: e3315ea197e71eb041fec6adfc58f2bb6e5007e27239a16235a6085caeb392b0
+    name: sidekick
+    type: application
+    urls:
+    - https://kubearmor.github.io/charts/sidekick-v0.1.tgz
+    version: v0.1
+generated: "2023-09-26T05:49:02.662111313Z"
