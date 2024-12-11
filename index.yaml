@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   kubearmor:
   - apiVersion: v2
+    appVersion: v1.4.6
+    created: "2024-12-11T04:55:17.185219077Z"
+    description: A Helm chart for Kubearmor on Kubernetes
+    digest: 3a5338edd90e6eb55f39410063f61f193bf9e6df0948aba82b776039c9a7ea08
+    home: https://github.com/kubearmor/KubeArmor
+    icon: https://github.com/kubearmor/KubeArmor/blob/main/.gitbook/assets/logo.png?raw=true
+    name: kubearmor
+    type: application
+    urls:
+    - https://kubearmor.github.io/charts/kubearmor-v1.4.6.tgz
+    version: v1.4.6
+  - apiVersion: v2
     appVersion: v1.4.3
     created: "2024-09-23T06:09:12.258783398Z"
     description: A Helm chart for Kubearmor on Kubernetes
@@ -159,6 +171,16 @@ entries:
     version: v0.9
   kubearmor-operator:
   - apiVersion: v2
+    appVersion: v1.4.6
+    created: "2024-12-11T04:55:17.182976173Z"
+    description: A Helm chart for kubearmor operator
+    digest: e29e29782822016304606fb294aca0aeb767261d4c08409aba8ad3f4bfb52eda
+    name: kubearmor-operator
+    type: application
+    urls:
+    - https://kubearmor.github.io/charts/kubearmor-operator-v1.4.6.tgz
+    version: v1.4.6
+  - apiVersion: v2
     appVersion: v1.4.3
     created: "2024-09-23T06:09:12.256558812Z"
     description: A Helm chart for kubearmor operator
@@ -289,4 +311,4 @@ entries:
     urls:
     - https://kubearmor.github.io/charts/sidekick-v0.1.tgz
     version: v0.1
-generated: "2024-09-23T06:09:12.255959845Z"
+generated: "2024-12-11T04:55:17.182416254Z"
